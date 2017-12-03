@@ -11,18 +11,27 @@ var userInput2 = process.argv[3];
 
 function receiveTweets() {
 
-    twit.get("search")
+    twit.get(""); 
+    function 
 
 }
 
-
+//I am going to get tutoring on this homework
 
 
 
 //OMDB logic
-
+var movie = process.argv[3];
 var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey=trilogy";
-request("")http://www.omdbapi.com/?i=tt3896198&apikey=d88263e1
+request("http://www.omdbapi.com/?i=tt3896198&apikey=d88263e1", function(error, response, body) {
+    if (error) {
+        console.log(error);
+    }
+});
 
 
 //Spotify Logic
+var song = process.argv;
+spotify.search ({ type: "track", query: song}), function(err, data) {
+
+}
